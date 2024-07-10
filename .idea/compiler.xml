@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springSecsection3" />
+        <module name="springSecsection4" />
+        <module name="springSecsection2" />
+        <module name="springSecsection5" />
+        <module name="springSecurityBasic" />
+        <module name="springSecsection6" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springSecsection2" options="-parameters" />
+      <module name="springSecsection3" options="-parameters" />
+      <module name="springSecsection4" options="-parameters" />
+      <module name="springSecsection5" options="-parameters" />
+      <module name="springSecsection6" options="-parameters" />
+      <module name="springSecurityBasic" options="-parameters" />
+    </option>
+  </component>
+</project>
